@@ -1,0 +1,19 @@
+Package: ClusMIP
+Title: Clustering-based Detection of Multiple Influential Observations
+        on Variable Selection
+Version: 0.0.0.9000
+Authors@R: 
+    person(given="Dongliang", family="Zhang", email="dzhang69@jhu.edu", role = c("aut", "cre"))
+Description: This package seeks to detect multiple influential points on variable selection under the high-dimensional setting where the number of predictors exceeds the sample size. 
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: COMMultReg, COMPoissonReg, iZID, VGAM, sBIC, flexmix,
+        TailRank, extraDistr, Qtools, glmnet, ncvreg, scalreg,
+        HTSCluster, LICORS, Rtsne, grplasso, Matrix, MASS
+Depends: R (>= 2.15), COMMultReg, COMPoissonReg, iZID, VGAM, sBIC,
+        flexmix, TailRank, extraDistr, Qtools, glmnet, ncvreg, scalreg,
+        HTSCluster, LICORS, Rtsne, grplasso, Matrix, MASS
+Remote: github::andrewraim/COMMultReg
+
